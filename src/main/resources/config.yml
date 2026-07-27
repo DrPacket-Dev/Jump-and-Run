@@ -6,3 +6,17 @@ start:
   yaw: 0.0
   pitch: 0.0
 max-steps: 10
+
+navigator:
+  item:
+    material: COMPASS
+    name: '<gold>Navigator'
+    slot: 4
+  menu:
+    title: '<dark_gray>Navigator'
+    animation: NONE
+  admin:
+    title: '<red>Navigator Admin'
+  editor:
+    title: '<dark_green>Navigator bearbeiten'
+  entries: {}
