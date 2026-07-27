@@ -17,6 +17,6 @@ public class CoursePattern {
     }
 
     public Step advance(Step current) {
-        return new Step(current.stepIndex(), true);
+        return new Step(current.stepIndex() + 1, true);
     }
 }
