@@ -21,7 +21,7 @@ class CoursePatternTest {
         assertTrue(steps.get(1).isActiveTarget());
 
         var advanced = pattern.advance(steps.get(1));
-        assertEquals(1, advanced.stepIndex());
+        assertEquals(2, advanced.stepIndex());
         assertTrue(advanced.isActiveTarget());
     }
 }
