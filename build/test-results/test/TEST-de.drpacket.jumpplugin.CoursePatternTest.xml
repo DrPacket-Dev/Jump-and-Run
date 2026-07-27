@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.drpacket.jumpplugin.CoursePatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-27T08:03:55.792Z" hostname="codespaces-23934f" time="0.18">
-  <properties/>
-  <testcase name="initialPatternCreatesThreeBlocksAndAdvancesCleanly()" classname="de.drpacket.jumpplugin.CoursePatternTest" time="0.092"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
