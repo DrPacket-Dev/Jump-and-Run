@@ -26,6 +26,19 @@ Die fertige Plugin-Datei befindet sich danach in:
 build/libs/jump-and-run-26.1.2.jar
 ```
 
+
+## GitHub Release-Workflow
+Der Workflow `Build and Release` baut das Plugin automatisch mit Java 21 und Gradle 8.14.4.
+
+Ein Release wird erstellt, wenn ein Git-Tag mit dem Prefix `v` gepusht wird, zum Beispiel:
+```bash
+git tag v26.1.2
+git push origin v26.1.2
+```
+
+Alternativ kann der Workflow in GitHub manuell über `workflow_dispatch` mit einem Release-Tag gestartet werden.
+Die gebaute JAR-Datei wird als Workflow-Artefakt hochgeladen und an das GitHub Release angehängt.
+
 ## Installieren
 1. Die JAR-Datei in den Plugins-Ordner deines Paper-Servers kopieren.
 2. Den Server starten.
