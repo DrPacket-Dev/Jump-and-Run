@@ -8,3 +8,11 @@ commands:
     description: Startet die Jump-and-Run-Lobby-Arena
     usage: /jump
     aliases: [jr, jrun]
+  navigator:
+    description: Öffnet oder verwaltet den Lobby-Navigator
+    usage: /navigator [admin|edit <name> <command>]
+    aliases: [nav]
+permissions:
+  jumpplugin.navigator.admin:
+    description: Erlaubt das Verwalten des Navigators
+    default: op
